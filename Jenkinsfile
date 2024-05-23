@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    registry = "likhi630"
+    registry = "likhi630/bootcamp"
     registryCredential = 'dockerhub'
     dockerImage = ""
   }
